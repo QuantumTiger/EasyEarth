@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1BCABD1DC2492800470E64 /* ShowInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1BCABC1DC2492800470E64 /* ShowInfoController.swift */; };
 		3F3718111DBE532100165E72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3718101DBE532100165E72 /* AppDelegate.swift */; };
 		3F3718131DBE532100165E72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3718121DBE532100165E72 /* ViewController.swift */; };
 		3F3718161DBE532100165E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3718141DBE532100165E72 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		3F37181B1DBE532100165E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3718191DBE532100165E72 /* LaunchScreen.storyboard */; };
 		3F3718261DBE532100165E72 /* EasyEarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3718251DBE532100165E72 /* EasyEarthTests.swift */; };
 		3F3718311DBE532100165E72 /* EasyEarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3718301DBE532100165E72 /* EasyEarthUITests.swift */; };
+		3F6FCC191DBFA5DB00D1A668 /* SwiftyJSON (8).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FCC181DBFA5DB00D1A668 /* SwiftyJSON (8).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1BCABC1DC2492800470E64 /* ShowInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowInfoController.swift; sourceTree = "<group>"; };
 		3F37180D1DBE532100165E72 /* EasyEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3718101DBE532100165E72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3718121DBE532100165E72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		3F37182C1DBE532100165E72 /* EasyEarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyEarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3718301DBE532100165E72 /* EasyEarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyEarthUITests.swift; sourceTree = "<group>"; };
 		3F3718321DBE532100165E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6FCC181DBFA5DB00D1A668 /* SwiftyJSON (8).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyJSON (8).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			children = (
 				3F3718101DBE532100165E72 /* AppDelegate.swift */,
 				3F3718121DBE532100165E72 /* ViewController.swift */,
+				3F1BCABC1DC2492800470E64 /* ShowInfoController.swift */,
 				3F3718141DBE532100165E72 /* Main.storyboard */,
 				3F3718171DBE532100165E72 /* Assets.xcassets */,
+				3F6FCC181DBFA5DB00D1A668 /* SwiftyJSON (8).swift */,
 				3F3718191DBE532100165E72 /* LaunchScreen.storyboard */,
 				3F37181C1DBE532100165E72 /* Info.plist */,
 			);
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					3F37180C1DBE532100165E72 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6235ST4D52;
 						ProvisioningStyle = Automatic;
 					};
 					3F3718201DBE532100165E72 = {
@@ -259,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1BCABD1DC2492800470E64 /* ShowInfoController.swift in Sources */,
 				3F3718131DBE532100165E72 /* ViewController.swift in Sources */,
+				3F6FCC191DBFA5DB00D1A668 /* SwiftyJSON (8).swift in Sources */,
 				3F3718111DBE532100165E72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,11 +421,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6235ST4D52;
 				INFOPLIST_FILE = EasyEarth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.EasyEarth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -424,11 +435,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6235ST4D52;
 				INFOPLIST_FILE = EasyEarth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Quantum-Apple.EasyEarth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -505,6 +518,7 @@
 				3F3718371DBE532100165E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3718381DBE532100165E72 /* Build configuration list for PBXNativeTarget "EasyEarthTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +527,7 @@
 				3F37183A1DBE532100165E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F37183B1DBE532100165E72 /* Build configuration list for PBXNativeTarget "EasyEarthUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +536,7 @@
 				3F37183D1DBE532100165E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
